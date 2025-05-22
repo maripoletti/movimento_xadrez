@@ -23,5 +23,32 @@ int main() {
         k++;
     } while (k < 8);
 
+    // ----------- Cavalo com loops aninhados (2 para baixo, 1 para esquerda) -----------
+    printf("\nMovimento do Cavalo:\n");
+
+    // Constantes para o movimento
+    const int movimentos_baixo = 2;
+    const int movimentos_esquerda = 1;
+
+    // Loop externo: movimento para baixo (obrigatoriamente com for)
+    for (int i = 0; i < movimentos_baixo; i++) {
+        printf("Baixo\n");
+
+        // Loop interno opcional: pode ser usado para outra lógica ou controle
+        int contador = 0;
+        while (contador < 1) {
+           
+            
+            contador++;
+        }
+    }
+
+    // Movimento final para a esquerda (parte do "L")
+    int l = 0;
+    while (l < movimentos_esquerda) {
+        printf("Esquerda\n");
+        l++;
+    }
+
     return 0;
 }
