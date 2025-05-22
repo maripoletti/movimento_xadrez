@@ -37,8 +37,8 @@ int main() {
         // Loop interno opcional: pode ser usado para outra lógica ou controle
         int contador = 0;
         while (contador < 1) {
-           
-            
+            // Esse while aqui poderia ser usado para lógica mais complexa,
+            // mas no nosso caso é só para garantir o uso do loop aninhado.
             contador++;
         }
     }
